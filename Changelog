@@ -1,0 +1,7 @@
+v1.0	23/01/2010
+
+	* initial release
+	* support for defining field names (supporting default install fields, kevin form fields)
+	* support for progress bar color changing
+	* support for showing progress completeness bar on profile page of a user
+	* exports an API function for other plugins to check for a user's progress bar percentage value
