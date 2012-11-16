@@ -11,8 +11,10 @@
 
 global $CONFIG;
 
-$percent = $vars["percent"];
-
+$user = page_owner_entity();
+if ($user instanceof ElggUser && elgg_in_context('profile')) {
+	$userGUID = $user->getGUID();
+	$percent = profile_meter_percent($userGUID);
 ?>
 
 <div class="progress-bar" >
@@ -26,3 +28,4 @@ $percent = $vars["percent"];
 ?>
 <br/><br/>
 
+<?php }?>
