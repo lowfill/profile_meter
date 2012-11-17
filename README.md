@@ -1,5 +1,6 @@
 
 Profile Meter elgg plugin
+=========================
 by Liran Tal of Enginx <liran@enginx.com>
 
 
